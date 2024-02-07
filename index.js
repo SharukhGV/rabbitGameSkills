@@ -256,8 +256,38 @@ else{
 }
 
 
+// uranusFacts
+
+if(background.position.x<-1635 && background.position.y<=-356 && background.position.x>=-1723 && background.position.y>=-428){
+    drawPopup("Welcome to Uranus", spaceShip.position.x, spaceShip.position.y);
+let uranusFacts = document.getElementById("uranusFacts")
+uranusFacts.innerHTML = "<div style='color: white;font-size:20px'>Uranus is the seventh planet from the sun. It has the third-largest radius of all the planets. It has 13 faint rings and 27 small moons. But a characteristic that sets Uranus apart: It spins on its side as it orbits the sun. That trip takes about 84 Earth years.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let uranusFacts = document.getElementById("uranusFacts")
+
+    uranusFacts.innerHTML = '';
+
+}
 
 
+// Neptune
+
+if(background.position.x<-1843 && background.position.y<=-626 && background.position.x>=-1913 && background.position.y>=-674){
+    drawPopup("Welcome to Neptune", spaceShip.position.x, spaceShip.position.y);
+let neptuneFacts = document.getElementById("neptuneFacts")
+neptuneFacts.innerHTML = "<div style='color: white;font-size:20px'>Neptune, the eighth planet from the sun, is the fourth largest planet in the solar system, but because it is so far away, it is not visible to the naked eye. Images from Voyager 1 show a vibrant blue Neptune with 14 moons, including its largest moon, Triton, discovered just 17 days after Neptune was first documented in 1846.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let neptuneFacts = document.getElementById("neptuneFacts")
+
+    neptuneFacts.innerHTML = '';
+
+}
 
 
 
