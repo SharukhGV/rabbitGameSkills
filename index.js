@@ -289,6 +289,25 @@ else{
 
 }
 
+// console.log(background.position.x)
+// console.log(background.position.y)
+
+
+// JUPITER
+
+if(background.position.x<-1137 && background.position.y<=-166 && background.position.x>=-1253 && background.position.y>=-266){
+    drawPopup("Welcome to Jupiter", spaceShip.position.x, spaceShip.position.y);
+let jupiterFacts = document.getElementById("jupiterFacts")
+jupiterFacts.innerHTML = "<div style='color: white;font-size:20px'>Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun. Jupiter orbits the Sun at a distance of 5.20 AU with an orbital period of 11.86 years. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let jupiterFacts = document.getElementById("jupiterFacts")
+
+    jupiterFacts.innerHTML = '';
+
+}
 
 
 
