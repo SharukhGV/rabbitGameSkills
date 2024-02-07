@@ -235,6 +235,33 @@ else{
     sunFacts.innerHTML = '';
 
 }
+
+
+
+
+// Saturn
+
+if(background.position.x<-1435 && background.position.y<=-696 && background.position.x>=-1523 && background.position.y>=-758){
+    drawPopup("Welcome to Saturn", spaceShip.position.x, spaceShip.position.y);
+let saturnFacts = document.getElementById("saturnFacts")
+saturnFacts.innerHTML = "<div style='color: white;font-size:20px'>Saturn, the sixth planet from the sun, is the second-largest planet in our solar system by mass and size and the most distant planet easily visible to the unaided eye from Earth. This gas giant made mostly of hydrogen and helium is easily recognized by its yellowish color, magnificent rings, and oblate—or flattened at the poles—shape.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let saturnFacts = document.getElementById("saturnFacts")
+
+    saturnFacts.innerHTML = '';
+
+}
+
+
+
+
+
+
+
+
 }
 
 animate();
