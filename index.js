@@ -204,6 +204,37 @@ else{
 // console.log(background.position.y)
 
 
+// Mercury
+
+if(background.position.x<-85 && background.position.y<=-306 && background.position.x>=-139 && background.position.y>=-350){
+    drawPopup("Welcome to Mercury", spaceShip.position.x, spaceShip.position.y);
+let mercuryFacts = document.getElementById("mercuryFacts")
+mercuryFacts.innerHTML = "<div style='color: white;font-size:20px'>Mercury is the closest planet to the Sun and due to its proximity, it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let mercuryFacts = document.getElementById("mercuryFacts")
+
+    mercuryFacts.innerHTML = '';
+
+}
+
+// Sun
+
+if(background.position.x<261 && background.position.y<=-416 && background.position.x>=93 && background.position.y>=-578){
+    drawPopup("Welcome to Sun", spaceShip.position.x, spaceShip.position.y);
+let sunFacts = document.getElementById("sunFacts")
+sunFacts.innerHTML = "<div style='color: white;font-size:20px'>The Sun is the star at the center of the Solar System. It is a massive, hot ball of plasma, inflated and heated by energy produced by nuclear fusion reactions at its core. Part of this internal energy is emitted from its surface as light, ultraviolet, and infrared radiation, providing most of the energy for life on Earth.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let sunFacts = document.getElementById("sunFacts")
+
+    sunFacts.innerHTML = '';
+
+}
 }
 
 animate();
