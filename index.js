@@ -154,7 +154,9 @@ function animate() {
 if(background.position.x<-537 && background.position.y<=-434 && background.position.x>=-595 && background.position.y>=-494){
     drawPopup("Welcome to the Earth", spaceShip.position.x, spaceShip.position.y);
 let earthfacts = document.getElementById("earthFacts")
-earthfacts.innerHTML = '<div style="color: white;">Third Planet from the Sun</div>';
+earthfacts.innerHTML = '<div style="color: white;font-size:20px">Earth is the third planet from the sun, and the only place we know of so far that’s inhabited by living things. It is the only world in our solar system with liquid water on the surface. Slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the sun, all of which are made of rock and metal.</div>';
+// let earthImage = document.getElementById("earthIamge")
+
 }
 else{
     let earthfacts = document.getElementById("earthFacts")
