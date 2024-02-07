@@ -138,10 +138,10 @@ function animate() {
 
     spaceShip.draw();
 
-    if (keys.ArrowDown.pressed && lastkey === "ArrowDown") movables.forEach((back) => { back.position.y -= 1 });
-    else if (keys.ArrowUp.pressed && lastkey === "ArrowUp") movables.forEach((back) => { back.position.y += 1 });
-    else if (keys.ArrowRight.pressed && lastkey === "ArrowRight") movables.forEach((back) => { back.position.x -= 1 });
-    else if (keys.ArrowLeft.pressed && lastkey === "ArrowLeft") movables.forEach((back) => { back.position.x += 1 });
+    if (keys.ArrowDown.pressed && lastkey === "ArrowDown") movables.forEach((back) => { back.position.y -= 3 });
+    else if (keys.ArrowUp.pressed && lastkey === "ArrowUp") movables.forEach((back) => { back.position.y += 3 });
+    else if (keys.ArrowRight.pressed && lastkey === "ArrowRight") movables.forEach((back) => { back.position.x -= 3 });
+    else if (keys.ArrowLeft.pressed && lastkey === "ArrowLeft") movables.forEach((back) => { back.position.x += 3 });
 
     // Your existing code for popup based on spaceship position
     // if (spaceShip.position.x === 0 && spaceShip.position.y === -456) {
