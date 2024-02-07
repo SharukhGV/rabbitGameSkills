@@ -169,6 +169,37 @@ else{
 // console.log(earth)
 // }
 
+if(background.position.x<-857 && background.position.y<=-550 && background.position.x>=-943 && background.position.y>=-608){
+    drawPopup("Welcome to Mars", spaceShip.position.x, spaceShip.position.y);
+let marsFacts = document.getElementById("marsFacts")
+marsFacts.innerHTML = '<div style="color: white; font-size: 20px;">Mars, the fourth planet from the sun, is a dusty, cold, desert world with a thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons, and weather. One of the most explored bodies in the solar system, Mars is the only planet where we\'ve sent rovers to roam the alien landscape.</div>';
+
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let marsFacts = document.getElementById("marsFacts")
+
+    marsFacts.innerHTML = '';
+
+}
+
+
+// VENUS
+
+if(background.position.x<-263 && background.position.y<=-632 && background.position.x>=-331 && background.position.y>=-682){
+    drawPopup("Welcome to Venus", spaceShip.position.x, spaceShip.position.y);
+let venusFacts = document.getElementById("venusFacts")
+venusFacts.innerHTML = "<div style='color: white;font-size:20px'>Venus, the second planet from the sun, is the closest planet to Earth and one of the brightest objects we see in the sky. It is sometimes referred to as Earth's 'sister planet' because of their similar size, mass, composition, and proximity to the sun. It spins slowly in the opposite direction than most planets.</div>";
+// let earthImage = document.getElementById("earthIamge")
+
+}
+else{
+    let venusFacts = document.getElementById("venusFacts")
+
+    venusFacts.innerHTML = '';
+
+}
 // console.log(background.position.x)
 // console.log(background.position.y)
 
