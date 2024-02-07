@@ -1,19 +1,38 @@
  <style>
     body{
         background: black;
+    color:white;
+    text-align: center;
+    }
+    .celestialBodies{
+        width:840px;
+        text-align: center;
+        margin: auto;
+        font-family: sans-serif;
+
     }
  </style>
+
+<br>
+<br>
+<h1>Explore the Solar System</h1>
+<h3>2D Model Discovery Platform</h3>
+<br>
  <canvas ></canvas>
  <br>
- <div style="width: 840px; text-align: center; background-color: rgba(0, 136, 255, 0.226);padding: 7px;border-radius: 5px;font-family: sans-serif;" id="earthFacts"></div>
+ <div class="celestialBodies">
+ <div  id="earthFacts"></div>
  <!-- <div id="earthIamge"></div> -->
- <div style="width: 840px; text-align: center; background-color: rgba(0, 136, 255, 0.226);padding: 7px;border-radius: 5px;font-family: sans-serif;" id="marsFacts"></div>
+ <div  id="marsFacts"></div>
 
- <div style="width: 840px; text-align: center; background-color: rgba(0, 136, 255, 0.226);padding: 7px;border-radius: 5px;font-family: sans-serif;" id="venusFacts"></div>
- <div style="width: 840px; text-align: center; background-color: rgba(0, 136, 255, 0.226);padding: 7px;border-radius: 5px;font-family: sans-serif;" id="mercuryFacts"></div>
- <div style="width: 840px; text-align: center; background-color: rgba(0, 136, 255, 0.226);padding: 7px;border-radius: 5px;font-family: sans-serif;" id="sunFacts"></div>
- <div style="width: 840px; text-align: center; background-color: rgba(0, 136, 255, 0.226);padding: 7px;border-radius: 5px;font-family: sans-serif;" id="saturnFacts"></div>
-
+ <div  id="venusFacts"></div>
+ <div  id="mercuryFacts"></div>
+ <div  id="sunFacts"></div>
+ <div  id="saturnFacts"></div>
+</div>
+<br>
+<br>
+<br>
  <script src="./data/collisions.js"></script>
  <script src="./earthData.js"></script>
 
